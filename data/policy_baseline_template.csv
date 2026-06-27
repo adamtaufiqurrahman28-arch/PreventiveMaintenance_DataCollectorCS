@@ -1,0 +1,15 @@
+Platform,Item Match,Best Practice,Comparison Mode,Exclude
+Windows,end_user_notification,Customer Preference,Exact,true
+Windows,unknown_executable_analysis,ON,Exact,false
+Windows,enhanced_dll_load_visibility,ON,Exact,false
+Windows,wsl2_visibility,ON,Exact,false
+Windows,memory_scanning_with_cpu,ON,Exact,false
+Windows,cloud_based_anomalous_process_execution,MODERATE,Minimum,false
+Windows,retrospective_detection,ON,Exact,false
+Mac,unknown_executable_analysis,ON,Exact,false
+Mac,enhanced_network_visibility,ON,Exact,false
+Mac,retrospective_detection,ON,Exact,false
+Linux,sensor_tamper_prevention,ON,Exact,false
+Linux,extended_command_line,ON,Exact,false
+Linux,systemd_visibility,ON,Exact,false
+Linux,retrospective_detection,ON,Exact,false

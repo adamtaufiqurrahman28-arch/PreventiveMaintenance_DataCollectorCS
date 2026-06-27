@@ -1,0 +1,14 @@
+services:
+  seraphim-data-collector:
+    build: .
+    image: seraphim-falcon-data-collector:v15-beta
+    container_name: seraphim-falcon-data-collector
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./output:/app/output
+    security_opt:
+      - no-new-privileges:true

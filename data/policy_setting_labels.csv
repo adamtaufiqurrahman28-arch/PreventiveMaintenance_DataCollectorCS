@@ -1,0 +1,68 @@
+Platform,Item Match,Display Name,Section,Sort Order
+Windows,end_user_notification,End user notification,Sensor visibility,10
+Windows,unknown_executable_analysis,Unknown executable analysis,Sensor visibility,20
+Windows,unknown_detection_related_executable_analysis,Unknown detection-related executable analysis,Sensor visibility,30
+Windows,sensor_tamper_prevention,Sensor tamper prevention,Sensor visibility,40
+Windows,additional_user_mode_data_visibility,Additional user mode data visibility,Sensor visibility,50
+Windows,interpreter_only_visibility,Interpreter-only visibility,Sensor visibility,60
+Windows,system_management_engine_visibility,System management engine visibility,Sensor visibility,70
+Windows,script_based_execution_visibility,Script-based execution visibility,Sensor visibility,80
+Windows,http_visibility_and_detections,HTTP visibility and detections,Sensor visibility,90
+Windows,redact_http_detection_details,Redact HTTP detection details,Sensor visibility,100
+Windows,hardware_enhanced_exploit_visibility,Hardware-enhanced exploit visibility,Sensor visibility,110
+Windows,enhanced_exploitation_visibility,Enhanced exploitation visibility,Sensor visibility,120
+Windows,enhanced_dll_load_visibility,Enhanced DLL Load Visibility,Sensor visibility,130
+Windows,wsl2_visibility,WSL2 Visibility,Sensor visibility,140
+Windows,memory_scanning_with_gpu,Memory scanning with GPU,Malware prevention,150
+Windows,memory_scanning_with_cpu,Memory scanning with CPU,Malware prevention,160
+Windows,bios_firmware_deep_visibility,BIOS firmware deep visibility,Sensor visibility,170
+Windows,enhanced_machine_learning_for_larger_files,Enhanced machine learning for larger files,Malware prevention,180
+Windows,usb_insertion_triggered_scan,USB insertion triggered scan,Malware prevention,190
+Windows,detect_on_write,Detect on write,Malware prevention,200
+Windows,quarantine_on_write,Quarantine on write,Malware prevention,210
+Windows,on_write_script_file_visibility,On write script file visibility,Sensor visibility,220
+Windows,quarantine_on_removable_media,Quarantine on removable media,Malware prevention,230
+Windows,microsoft_office_file_malicious_macro_removal,Microsoft Office file malicious macro removal,Malware prevention,240
+Windows,custom_indicator_blocking,Custom indicator blocking,Malware prevention,250
+Windows,suspicious_process_prevention,Suspicious processes prevention,Exploit mitigation,260
+Windows,suspicious_registry_operation,Suspicious registry operation,Exploit mitigation,270
+Windows,boot_configuration_database_protection,Boot configuration database protection,Exploit mitigation,280
+Windows,suspicious_scripts_and_commands_prevention,Suspicious scripts and commands prevention,Exploit mitigation,290
+Windows,intelligence_sourced_threats_prevention,Intelligence-sourced threats prevention,Malware prevention,300
+Windows,driver_load_prevention,Driver load prevention,Exploit mitigation,310
+Windows,vulnerable_driver_protection,Vulnerable driver protection,Exploit mitigation,320
+Windows,file_system_containment,File system containment,Exploit mitigation,330
+Windows,aslr_bypass_prevention,ASLR bypass prevention,Exploit mitigation,340
+Windows,dep_bypass_prevention,DEP bypass prevention,Exploit mitigation,350
+Windows,heap_spray_pre_allocation_prevention,Heap spray pre-allocation prevention,Exploit mitigation,360
+Windows,null_page_allocation_prevention,NULL page allocation prevention,Exploit mitigation,370
+Windows,seh_overwrite_prevention,SEH overwrite prevention,Exploit mitigation,380
+Windows,backup_deletion_prevention,Backup deletion prevention,Ransomware protection,390
+Windows,cryptowall_prevention,Cryptowall prevention,Ransomware protection,400
+Windows,file_encryption_prevention,File encryption prevention,Ransomware protection,410
+Windows,locky_prevention,Locky prevention,Ransomware protection,420
+Windows,file_system_access_prevention,File system access prevention,Ransomware protection,430
+Windows,volume_shadow_copy_audit,Volume Shadow Copy - Audit,Ransomware protection,440
+Windows,volume_shadow_copy_protect,Volume Shadow Copy - Protect,Ransomware protection,450
+Windows,application_exploitation_activity_prevention,Application exploitation activity prevention,Exploit mitigation,460
+Windows,chopper_webshell_prevention,Chopper webshell prevention,Exploit mitigation,470
+Windows,drive_by_download_prevention,Drive-by download prevention,Exploit mitigation,480
+Windows,code_injection_prevention,Code injection prevention,Exploit mitigation,490
+Windows,javascript_execution_via_rundll32_prevention,JavaScript execution via rundll32 prevention,Exploit mitigation,500
+Windows,retrospective_detection,Retrospective detection,Cloud protection,510
+Windows,cloud_anti_malware_for_microsoft_office,Cloud Anti-Malware for Microsoft Office,Cloud protection,520
+Windows,cloud_based_on_demand_scanning,Cloud-Based On-Demand Scanning,Cloud protection,530
+Windows,cloud_based_anomalous_process_execution,Cloud-Based Anomalous Process Execution,Cloud protection,540
+Mac,unknown_executable_analysis,Unknown executable analysis,Sensor visibility,10
+Mac,sensor_tamper_prevention,Sensor tamper prevention,Sensor visibility,20
+Mac,enhanced_network_visibility,Enhanced Network Visibility,Sensor visibility,30
+Mac,retrospective_detection,Retrospective detection,Cloud protection,40
+Linux,sensor_tamper_prevention,Sensor tamper prevention,Sensor visibility,10
+Linux,tls_visibility,TLS visibility,Sensor visibility,20
+Linux,email_protocol_visibility,Email protocol visibility,Sensor visibility,30
+Linux,extended_command_line,Extended Command Line,Sensor visibility,40
+Linux,dbus_visibility,D-BUS visibility,Sensor visibility,50
+Linux,php_visibility,PHP visibility,Sensor visibility,60
+Linux,memory_visibility,Memory visibility,Sensor visibility,70
+Linux,systemd_visibility,Systemd visibility,Sensor visibility,80
+Linux,retrospective_detection,Retrospective detection,Cloud protection,90

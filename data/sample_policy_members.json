@@ -1,0 +1,587 @@
+[
+  {
+    "device_id": "aid-001",
+    "hostname": "DEMO-WIN-001",
+    "platform_name": "Windows",
+    "os_version": "Windows 11",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.37.20907.0",
+    "first_seen": "2025-12-27T03:14:19.791849+00:00",
+    "last_seen": "2026-06-25T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.1",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:01",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-002",
+    "hostname": "DEMO-WIN-002",
+    "platform_name": "Windows",
+    "os_version": "Windows 11",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.36.20805.0",
+    "first_seen": "2025-12-26T03:14:19.791849+00:00",
+    "last_seen": "2026-06-24T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.2",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:02",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-003",
+    "hostname": "DEMO-LIN-003",
+    "platform_name": "Linux",
+    "os_version": "Ubuntu 24.04",
+    "kernel_version": "6.8.0",
+    "agent_version": "7.37.19004.0",
+    "first_seen": "2025-12-25T03:14:19.791849+00:00",
+    "last_seen": "2026-06-26T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.3",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:03",
+    "status": "normal",
+    "online_state_api": "offline",
+    "reduced_functionality_mode": true,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-lin-1",
+    "_policy_name": "Linux Server",
+    "_policy_platform": "Linux"
+  },
+  {
+    "device_id": "aid-004",
+    "hostname": "DEMO-MAC-004",
+    "platform_name": "Mac",
+    "os_version": "Ventura (13)",
+    "kernel_version": "22.6.0",
+    "agent_version": "7.37.20904.0",
+    "first_seen": "2025-12-24T03:14:19.791849+00:00",
+    "last_seen": "2026-06-06T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.4",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:04",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-mac-1",
+    "_policy_name": "Mac Default",
+    "_policy_platform": "Mac"
+  },
+  {
+    "device_id": "aid-005",
+    "hostname": "DEMO-WIN-005",
+    "platform_name": "Windows",
+    "os_version": "Windows 11",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.37.20907.0",
+    "first_seen": "2025-12-23T03:14:19.791849+00:00",
+    "last_seen": "2026-06-24T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.5",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:05",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": null,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-006",
+    "hostname": "DEMO-WIN-006",
+    "platform_name": "Windows",
+    "os_version": "Windows 10",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.36.20805.0",
+    "first_seen": "2025-12-22T03:14:19.791849+00:00",
+    "last_seen": "2026-06-26T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.6",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:06",
+    "status": "normal",
+    "online_state_api": "offline",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-007",
+    "hostname": "DEMO-WIN-007",
+    "platform_name": "Windows",
+    "os_version": "Windows 11",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.22.19406.0",
+    "first_seen": "2025-12-21T03:14:19.791849+00:00",
+    "last_seen": "2026-06-25T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.7",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:07",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-008",
+    "hostname": "DEMO-LIN-008",
+    "platform_name": "Linux",
+    "os_version": "Ubuntu 24.04",
+    "kernel_version": "6.8.0",
+    "agent_version": "7.38.19102.0",
+    "first_seen": "2025-12-20T03:14:19.791849+00:00",
+    "last_seen": "2026-06-24T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.8",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:08",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": true,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-lin-1",
+    "_policy_name": "Linux Server",
+    "_policy_platform": "Linux"
+  },
+  {
+    "device_id": "aid-009",
+    "hostname": "DEMO-MAC-009",
+    "platform_name": "Mac",
+    "os_version": "Ventura (13)",
+    "kernel_version": "22.6.0",
+    "agent_version": "7.38.21003.0",
+    "first_seen": "2025-12-19T03:14:19.791849+00:00",
+    "last_seen": "2026-06-06T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.9",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:09",
+    "status": "normal",
+    "online_state_api": "offline",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-mac-1",
+    "_policy_name": "Mac Default",
+    "_policy_platform": "Mac"
+  },
+  {
+    "device_id": "aid-010",
+    "hostname": "DEMO-WIN-010",
+    "platform_name": "Windows",
+    "os_version": "Windows 11",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.36.20805.0",
+    "first_seen": "2025-12-18T03:14:19.791849+00:00",
+    "last_seen": "2026-06-25T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.10",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:0a",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-011",
+    "hostname": "DEMO-WIN-011",
+    "platform_name": "Windows",
+    "os_version": "Windows 11",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.22.19406.0",
+    "first_seen": "2025-12-17T03:14:19.791849+00:00",
+    "last_seen": "2026-06-24T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.11",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:0b",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-012",
+    "hostname": "DEMO-WIN-012",
+    "platform_name": "Windows",
+    "os_version": "Windows 10",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.38.21003.0",
+    "first_seen": "2025-12-16T03:14:19.791849+00:00",
+    "last_seen": "2026-06-26T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.12",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:0c",
+    "status": "normal",
+    "online_state_api": "offline",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  },
+  {
+    "device_id": "aid-013",
+    "hostname": "DEMO-LIN-013",
+    "platform_name": "Linux",
+    "os_version": "Ubuntu 24.04",
+    "kernel_version": "6.8.0",
+    "agent_version": "7.37.19004.0",
+    "first_seen": "2025-12-15T03:14:19.791849+00:00",
+    "last_seen": "2026-06-25T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.13",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:0d",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": true,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-lin-1",
+    "_policy_name": "Linux Server",
+    "_policy_platform": "Linux"
+  },
+  {
+    "device_id": "aid-014",
+    "hostname": "DEMO-MAC-014",
+    "platform_name": "Mac",
+    "os_version": "Ventura (13)",
+    "kernel_version": "22.6.0",
+    "agent_version": "7.26.19707.0",
+    "first_seen": "2025-12-14T03:14:19.791849+00:00",
+    "last_seen": "2026-06-24T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.14",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:0e",
+    "status": "normal",
+    "online_state_api": "online",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-mac-1",
+    "_policy_name": "Mac Default",
+    "_policy_platform": "Mac"
+  },
+  {
+    "device_id": "aid-015",
+    "hostname": "DEMO-WIN-015",
+    "platform_name": "Windows",
+    "os_version": "Windows 10",
+    "kernel_version": "10.0.26100",
+    "agent_version": "7.22.19406.0",
+    "first_seen": "2025-12-13T03:14:19.791849+00:00",
+    "last_seen": "2026-06-26T03:14:19.791849+00:00",
+    "local_ip": "10.0.0.15",
+    "external_ip": "203.0.113.10",
+    "mac_address": "00:11:22:33:44:0f",
+    "status": "normal",
+    "online_state_api": "offline",
+    "reduced_functionality_mode": false,
+    "system_manufacturer": "DemoVendor",
+    "system_product_name": "DemoModel",
+    "site_name": "Jakarta",
+    "groups": [
+      {
+        "name": "Workstations"
+      }
+    ],
+    "policies": {
+      "prevention": {
+        "policy_name": "Demo Workstation Policy"
+      },
+      "sensor_update": {
+        "policy_name": "Demo Sensor Policy"
+      }
+    },
+    "tags": [
+      "demo",
+      "pm"
+    ],
+    "_policy_id": "pol-win-1",
+    "_policy_name": "Windows Workstation",
+    "_policy_platform": "Windows"
+  }
+]

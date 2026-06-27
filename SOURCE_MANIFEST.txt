@@ -1,0 +1,26 @@
+Seraphim Falcon Data Collector v15.0.6.2
+
+Core:
+- app.py
+- src/falcon_collectors.py
+- src/normalizers.py
+- src/policy_mapping.py
+- src/policy_assessment.py
+- src/sensor_health.py
+- src/excel_exporter.py
+- src/detection_adapter.py
+- detector/*
+
+Data templates:
+- data/policy_setting_labels.csv
+- data/policy_baseline_template.csv
+- data/sample_policies.json
+- data/sample_policy_members.json
+- data/sample_hosts.csv
+- data/sample_alerts.csv
+- data/sample_sensor_matrix.csv
+
+Validation:
+- tests/test_core.py
+- tests/test_detection_standalone_integration.py
+- scripts_validate_demo.py

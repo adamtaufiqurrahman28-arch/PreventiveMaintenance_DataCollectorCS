@@ -1,0 +1,46 @@
+[
+  {
+    "id": "pol-win-1",
+    "name": "Windows Workstation",
+    "platform_name": "Windows",
+    "enabled": true,
+    "precedence": 1,
+    "description": "Demo Windows policy using official settings[].id/value structure",
+    "created_timestamp": "2025-08-30T03:14:19.791849+00:00",
+    "modified_timestamp": "2026-06-26T03:14:19.791849+00:00",
+    "settings": [
+      {"id": "end_user_notification", "value": {"type": "TOGGLE", "value": true}},
+      {"id": "unknown_executable_analysis", "value": {"type": "TOGGLE", "value": true}},
+      {"id": "enhanced_dll_load_visibility", "value": {"type": "TOGGLE", "value": false}},
+      {"id": "wsl2_visibility", "value": {"type": "TOGGLE", "value": false}},
+      {"id": "memory_scanning_with_cpu", "value": {"type": "TOGGLE", "value": true}},
+      {"id": "cloud_based_anomalous_process_execution", "value": {"type": "LEVEL", "detection": "AGGRESSIVE", "prevention": "MODERATE"}},
+      {"id": "retrospective_detection", "value": {"type": "TOGGLE", "value": true}}
+    ]
+  },
+  {
+    "id": "pol-mac-1",
+    "name": "Mac Default",
+    "platform_name": "Mac",
+    "enabled": true,
+    "precedence": 1,
+    "settings": [
+      {"id": "unknown_executable_analysis", "value": {"type": "TOGGLE", "value": true}},
+      {"id": "enhanced_network_visibility", "value": {"type": "TOGGLE", "value": false}},
+      {"id": "retrospective_detection", "value": {"type": "TOGGLE", "value": true}}
+    ]
+  },
+  {
+    "id": "pol-lin-1",
+    "name": "Linux Server",
+    "platform_name": "Linux",
+    "enabled": true,
+    "precedence": 1,
+    "settings": [
+      {"id": "sensor_tamper_prevention", "value": {"type": "TOGGLE", "value": true}},
+      {"id": "extended_command_line", "value": {"type": "TOGGLE", "value": false}},
+      {"id": "systemd_visibility", "value": {"type": "TOGGLE", "value": false}},
+      {"id": "retrospective_detection", "value": {"type": "TOGGLE", "value": true}}
+    ]
+  }
+]
